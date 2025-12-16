@@ -1,0 +1,17 @@
+┌──(kali㉿kali)-[~]
+└─$ curl -i http://localhost:3000/api/Users/1 \-H "Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdGF0dXMiOiJzdWNjZXNzIiwiZGF0YSI6eyJpZCI6MSwidXNlcm5hbWUiOiIiLCJlbWFpbCI6ImFkbWluQGp1aWNlLXNoLm9wIiwicGFzc3dvcmQiOiIwMTkyMDIzYTdiYmQ3MzI1MDUxNmYwNjlkZjE4YjUwMCIsInJvbGUiOiJhZG1pbiIsImRlbHV4ZVRva2VuIjoiIiwibGFzdExvZ2luSXAiOiIxMjcuMC4wLjEiLCJwcm9maWxlSW1hZ2UiOiJhc3NldHMvcHVibGljL2ltYWdlcy91cGxvYWRzL2RlZmF1bHRBZG1pbi5wbmciLCJ0b3RwU2VjcmV0IjoiIiwiaXNBY3RpdmUiOnRydWUsImNyZWF0ZWRBdCI6IjIwMjUtMTItMTUgMTg6Mzg6MDUuNzI4ICswMDowMCIsInVwZGF0ZWRBdCI6IjIwMjUtMTItMTUgMTg6NTY6MTIuOTk2ICswMDowMCIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTc2NTgyNTMzMH0.vZP5o7kOYxJMLg9YCYCq_BSgmUHQcKHp8NsMHfO0aKBAQKbRvfGy8PBtIZjkHZjBxeQlA7FI2Ud-k1BO94mdSla6AZ8O5GsqwbilKR--zGkmIXpZE-BqjIzIcElTA_gItao97UjKgZZ7Aj_dYzzwyKZ4Erali5uSCrTx7-xgotY"
+HTTP/1.1 200 OK
+Access-Control-Allow-Origin: *
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: payment 'self'
+X-Recruiting: /#/jobs
+Content-Type: application/json; charset=utf-8
+Content-Length: 310
+ETag: W/"136-pa2wSHrzzGrefQRv26hBeEHKuB0"
+Vary: Accept-Encoding
+Date: Mon, 15 Dec 2025 19:21:47 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"status":"success","data":{"id":1,"username":"","email":"admin@juice-sh.op","role":"admin","deluxeToken":"","lastLoginIp":"127.0.0.1","profileImage":"assets/public/images/uploads/defaultAdmin.png","isActive":true,"createdAt":"2025-12-15T18:38:05.728Z","updatedAt":"2025-12-15T18:56:12.996Z","deletedAt":null}}                                                                                                                                                                                                                                 
